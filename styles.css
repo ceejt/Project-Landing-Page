@@ -78,13 +78,11 @@ button {
 }
 
 .header-content-right img {
-    width: 500px;
-    height: 250px;
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(181, 178, 178, 0.519);
-    color: white;
-    font-size: 18px;
+    object-fit:fill;
 }
 
