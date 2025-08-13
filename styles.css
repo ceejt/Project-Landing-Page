@@ -86,9 +86,32 @@ button {
     object-fit:fill;
 }
 
-.content-info {
+.content-info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxes {
     display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-box {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 150px;
 }
